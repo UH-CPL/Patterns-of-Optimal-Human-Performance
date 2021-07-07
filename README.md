@@ -1,11 +1,11 @@
 # aces-project-code
 This repository contains code for the ACEs research project.    
-Files 'Figure_*' used to plot the figures.  
-Files 'Model_*' used to calculate the fitting models.  
+Files 'Figure_\*' used to plot the figures.  
+Files 'Model_\*' used to calculate the fitting models.  
 Data: https://osf.io/9bjwx/    
 
 
-Requirements: *!versions!*  
+Requirements: 
 R 4.0.3  
 R-studio 1.4.1103  
 moments 0.14  
