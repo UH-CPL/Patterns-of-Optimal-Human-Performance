@@ -19,10 +19,10 @@ source('Figure_suppl_title_cex.R')
 path2 <- "/Users/apple/UH-CPL/ACEs/data_02052020"
 
 #as a prototype we will use cumulative datasets
-BIO_raw <- read.csv(paste("/Users/apple/Downloads/Data-5/Scholars/NIH_BIO_scholars_QC_temporal_v2.csv", sep=''),
+BIO_raw <- read.csv(paste("./SCHOLARS/NIH_BIO_scholars_QC_temporal_v2.csv", sep=''),
                     header = T)
 
-CS_raw <- read.csv(paste("/Users/apple/Downloads/Data-5/Scholars/NSF_CS_scholars_QC_temporal_v2.csv", sep=''),
+CS_raw <- read.csv(paste("./SCHOLARS/NSF_CS_scholars_QC_temporal_v2.csv", sep=''),
                    header = T)
 
 # New dates
