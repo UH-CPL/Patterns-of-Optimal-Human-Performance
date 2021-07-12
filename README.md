@@ -1,11 +1,17 @@
 # aces-project-code
-This repository contains code for the ACEs research project.    
+This repository contains code for the ACEs research project.  
+
 Files 'Figure_\*' used to plot the figures.  
-Files 'Model_\*' used to calculate the fitting models.  
+Used to produce figures based on the modelling data.  
+Files 'Model_\*' used to calculate the fitting models.    
+Used to produce the modelling data (standard errors, estimated  
+parameters and p-values) for the Log normal and Power law models.  
+Warning! The execution is quite time-consuming.
+
 Data: https://osf.io/9bjwx/    
 
 
-Requirements: 
+Requirements:  
 R 4.0.3  
 R-studio 1.4.1103  
 moments 0.14  
