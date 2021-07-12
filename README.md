@@ -1,5 +1,4 @@
-# aces-project-code
-This repository contains code for the ACEs research project.  
+This repository contains code for the research project.  
 
 Files 'Figure_\*' used to plot the figures.  
 Used to produce figures based on the modelling data.  
