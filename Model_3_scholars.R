@@ -17,6 +17,7 @@ library(EnvStats)
 library(igraph)
 library(plyr)
 
+### Data may be derived from the original OSF files
 path2 <- "/Users/apple/UH-CPL/ACEs/data_02052020"
 
 #as a prototype we will use cumulative datasets
