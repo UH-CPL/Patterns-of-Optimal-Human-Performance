@@ -17,6 +17,7 @@ library(EnvStats)
 library(igraph)
 
 ### Folder where we have the data
+### Data may be derived from the original OSF files
 data_path <- "/"  ### path to the data
 setwd(data_path) ### will store models at that folder
 
