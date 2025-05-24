@@ -16,6 +16,7 @@ library(EnvStats)
 library(igraph)
 
 ### Folder where we have the data
+### Data may be derived from the original OSF files
 data_path <- "/"
 setwd(data_path) ### will store figures at that folder
 
