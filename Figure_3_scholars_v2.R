@@ -15,7 +15,7 @@ source('Figure_suppl_title_cex.R')
 
 
 ### Folder where we have the data
-
+### Data may be derived from the original OSF files
 path2 <- "/Users/apple/UH-CPL/ACEs/data_02052020"
 
 #as a prototype we will use cumulative datasets
