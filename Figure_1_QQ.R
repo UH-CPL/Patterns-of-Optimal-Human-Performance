@@ -13,6 +13,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Requires Rstudio
 source('Figure_suppl_title_cex.R')
 
 ### Folder where we have the data
+### Data may be derived from the original OSF files
 data_path <- "/Users/apple/UH-CPL/ACEs/data_03312020"
 setwd(data_path) ### will store figures at that folder
 load(paste(data_path, "/scripts_results_pure/results1.RData", sep=""))
