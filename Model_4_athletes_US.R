@@ -18,6 +18,7 @@ library(igraph)
 library(plyr)
 library(tidyverse)
 
+### Data may be derived from the original OSF files
 path2 <- "/"
 athletes <- read.csv(file = paste(path2,"/Athletes_breakdown_score.csv", sep=''))
 
