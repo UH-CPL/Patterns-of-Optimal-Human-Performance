@@ -1,27 +1,54 @@
-This repository contains code for the research project.  
+# Patterns of Optimal Human Performance
 
-Files 'Figure_\*' used to plot the figures.  
-Used to produce figures based on the modelling data.  
-Files 'Model_\*' used to calculate the fitting models.    
-Used to produce the modelling data (standard errors, estimated  
-parameters and p-values) for the Log normal and Power law models.  
-Warning! The execution is quite time-consuming.
+This repository contains R code and data for the *Patterns of Optimal Human Performance* research project. All configuration is self-contained in the scripts, so no external setup is required. Scripts prefixed with `Model_` fit the statistical models, and scripts prefixed with `Figure_` generate the analysis plots from those model results.
 
-Data: https://osf.io/9bjwx/    
+## Requirements
 
+- **R** (version 4.0.3 or higher)  
+- **R packages:**  
+  - `moments`  
+  - `poweRlaw`  
+  - `car`  
+  - `MASS`  
+  - `STAND`  
+  - `nortest`  
+  - `truncdist`  
+  - `EnvStats`  
+  - `igraph`  
+  - `knitr`  
+  - `pander`  
+  - `ggplot2`  
 
-Requirements:  
-R 4.0.3  
-R-studio 1.4.1103  
-moments 0.14  
-poweRlaw 0.70.6  
-car 3.0-10  
-MASS 7.3-53  
-STAND 2.0  
-nortest 1.0-4  
-truncdist 1.0-2  
-EnvStats 2.4.0   
-igraph 1.2.6  
-knitr 1.31  
-pander 0.6.4  
-ggplot2 3.3.3  
+Install these using `install.packages()` as needed.
+
+## Data
+
+- The file `data_03312020.zip` contains all raw data files (CSV) used in the analysis.  
+- See the included `DataDescription.docx` for dataset and variable details. Additional context is available on the [OSF project page](https://osf.io/9bjwx/).
+
+## Reproducing the Results
+
+1. **Install required packages**  
+   In R, install any missing packages:
+   ```r
+   install.packages("poweRlaw")
+   install.packages("ggplot2")
+   # Repeat for the remaining packages
+
+2. **Set the working directory**
+Set your R or RStudio working directory to the folder containing the scripts and data.
+
+3. **Prepare the data**
+Unzip data_03312020.zip so that all data files are accessible in the working directory.
+Data: https://osf.io/9bjwx/  
+
+4. **Run model scripts**
+Execute each script starting with Model_. These scripts fit statistical models to the data and save the results.
+
+5. **Run figure scripts**
+Execute each script starting with Figure_. These generate the plots based on the model outputs.
+
+6. **Inspect the results**
+Output figures will be saved in the working directory or as specified within each script.
+
+No additional configuration is required; all paths and parameters are pre-set in the scripts.
